@@ -1,9 +1,19 @@
-# To run the container, cd to the location of your Jupyter notebooks:
-
-`cd /path/to/repro-lexicon-analysis-public`
+# To build the container, cd to the location of the docker-stacks:
 
 ```
-docker run --name wip -p 8888:8888 -v $(pwd):/home/jovyan/work -d wip-lexicon
+cd /path/to/repro-lexicon-docker-stacks/container
+docker build --rm --tag wip-repro-lexicon .
+```
+
+
+# To run the container, cd to the location of your Jupyter notebooks repo:
+
+```
+cd /path/to/repro-lexicon-analysis-public
+```
+
+```
+docker run --name wip -p 8888:8888 -v $(pwd):/home/jovyan/work -d wip-repro-lexicon
 ```
 
 Get the secure token using:
