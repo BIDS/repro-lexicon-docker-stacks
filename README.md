@@ -27,4 +27,4 @@ To kill the docker container run:
 docker rm -f wip
 ```
 
-NB: Linux users add ```sudo``` before all these commands.
+NB: Linux users add ```sudo``` before all these commands. Other commands: [cheat sheet](https://github.com/wsargent/docker-cheat-sheet)
