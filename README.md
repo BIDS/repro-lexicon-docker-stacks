@@ -21,3 +21,4 @@ Get the secure token using:
 ```
 docker logs wip
 ```
+NB: Linux users add ```sudo``` before all these commands.
