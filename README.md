@@ -21,4 +21,10 @@ Get the secure token using:
 ```
 docker logs wip
 ```
+
+To kill the docker container run:
+```
+docker rm -f wip
+```
+
 NB: Linux users add ```sudo``` before all these commands.
